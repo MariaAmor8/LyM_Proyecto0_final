@@ -1,0 +1,6 @@
+defVar t 7
+defproc ajio(w,e,r,t){
+    grab(8)
+}
+
+ajio(1,2,8,t)
