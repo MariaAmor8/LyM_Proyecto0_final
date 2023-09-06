@@ -7,6 +7,7 @@ def Tokenizar(archivo):
             if token[0] != 61 and token[0] != 4:
                 diccToken = {'type':token[0],'value':token[1].lower()}
                 tokensList.append(diccToken)
+    print('Los tokens son: ')
     print(tokensList)
     return tokensList
 
@@ -355,6 +356,6 @@ def ejecutar():
         except:
             rta = False
     print("lista de variables -> " + str(DiccVar))
-    print(rta)
+    print('La respuesta es ' + str(rta))
      
 ejecutar()
